@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bem-vinda ao Detox Emocional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; color: #3B3B3B; background: #F8F4EE; }
+    h1, h2 { font-family: 'Playfair Display', serif; }
+    .btn-tg {
+      background: #229ED9;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 9999px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      box-shadow: 0 8px 24px rgba(34, 158, 217, 0.25);
+      transition: transform .15s ease;
+    }
+    .btn-tg:hover { transform: translateY(-1px); }
+  </style>
+
+  <!-- Meta Pixel: dispara Purchase aqui (Hotmart também envia, mas reforço client-side) -->
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    // fbq('init', 'SEU_PIXEL_ID');
+    // fbq('track', 'Purchase', {value: 19.90, currency: 'BRL'});
+  </script>
+</head>
+
+<body class="min-h-screen flex items-center">
+  <main class="max-w-2xl mx-auto px-6 py-16 text-center">
+    <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-[#7B8C7A]/20 mb-8">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#7B8C7A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+    </div>
+
+    <p class="text-[#7B8C7A] uppercase tracking-widest text-sm font-medium mb-4">Pagamento confirmado</p>
+    <h1 class="text-4xl md:text-5xl mb-6 text-[#3B3B3B]">Que bom te ter aqui.</h1>
+    <p class="text-lg text-[#6B6B6B] leading-relaxed mb-10">
+      Sua jornada começa agora. Entre na nossa comunidade no Telegram clicando no botão abaixo — é lá que vou te encontrar todos os dias durante as próximas 3 semanas.
+    </p>
+
+    <a href="https://t.me/+SEU_LINK_DO_TELEGRAM" class="btn-tg text-lg" target="_blank" rel="noopener">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+      Entrar na comunidade
+    </a>
+
+    <div class="mt-12 bg-white rounded-2xl p-6 text-left text-sm text-[#6B6B6B] shadow-sm">
+      <p class="font-medium text-[#3B3B3B] mb-3">Próximos passos:</p>
+      <ol class="space-y-2 list-decimal list-inside">
+        <li>Clique no botão acima e entre no grupo do Telegram</li>
+        <li>Você também vai receber um email com o mesmo link (caso queira acessar pelo computador depois)</li>
+        <li>O primeiro áudio vai estar te esperando no grupo</li>
+        <li>Qualquer dúvida, é só me chamar por lá</li>
+      </ol>
+    </div>
+
+    <p class="mt-10 text-sm text-[#6B6B6B]">Com carinho,<br><span class="font-serif text-lg text-[#3B3B3B]">Renata</span></p>
+  </main>
+</body>
+</html>
