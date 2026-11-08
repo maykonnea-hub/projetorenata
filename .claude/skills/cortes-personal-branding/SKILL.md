@@ -72,10 +72,13 @@ Todo vídeo segue essa estrutura:
 - Cada trecho começa no início de uma frase e termina no fim de uma frase, para o corte de áudio soar natural.
 - Aponte o que remover **dentro** de um trecho (tangente, "um, you know, like", interrupção do host), com o tempo aproximado.
 - Marque cada vídeo como **Contínuo** (um bloco só) ou **Montagem (N trechos)**.
+- **Pergunta do host como setup:** pode entrar quando ajuda quem assiste a entender o assunto (é o formato clássico de corte de podcast). Sempre ofereça também a versão sem o host: comece na resposta do cliente e coloque a pergunta como texto na tela. O vídeo é do cliente, então quem fala o tempo todo é ele.
+- **Uma fala, um corte:** não use a mesma frase em dois cortes do mesmo episódio. O público vê os vídeos em sequência no perfil, e repetição parece reciclagem. Se duas ideias disputam a mesma frase, ela fica no corte mais forte, e o outro ganha outra fala.
 
 ### Passo 4: Tempos e duração
 
 - **Duração alvo:** 60–90 s é o ideal; o máximo é **120 s**. Abaixo de ~45 s, só se o trecho for excepcional (e diga isso).
+- **Episódio curto ou respostas curtas:** quando o material não rende 60 s sem enrolação, entregue cortes mais curtos e bem fechados em vez de esticar com falas fracas. Avise isso no topo da resposta. Retenção vale mais que duração.
 - **Início do trecho** = tempo da linha onde a primeira frase começa. **Fim do trecho** = tempo da linha seguinte à última frase (é aí que a fala termina). Formato `HH:MM:SS` (ou `MM:SS` se o episódio tiver menos de 1 h).
 - Mostre a duração de cada parte e **some o total**. Se passar de 120 s, aperte (tire uma parte do desenvolvimento) antes de entregar.
 - Legenda automática tem tempo aproximado: lembre que o ajuste fino é no editor, ouvindo, com ~0,5 s de folga.
@@ -94,7 +97,9 @@ Seja honesto: nem tudo é 9. A nota serve para o Maykon saber o que editar prime
 
 ### Quantos cortes entregar
 
-Por padrão, cerca de **1 corte a cada 8–10 minutos de episódio**, no mínimo 3 e no máximo 10. Qualidade antes de quantidade: se o episódio só tem 3 momentos bons, entregue 3 e diga isso. Se ele pedir um número específico, siga o pedido.
+Por padrão, cerca de **1 corte a cada 8–10 minutos de episódio**, entre 3 e 10. Episódio curto (menos de ~25 min): entregue 3, ou mais se houver mais momentos que funcionam sozinhos. Episódio longo (mais de ~90 min): no máximo 10, os melhores. Qualidade antes de quantidade: se o episódio só tem 2 momentos bons, entregue 2 e diga isso, em vez de completar a cota com cortes fracos. Se ele pedir um número específico, siga o pedido.
+
+Momentos bons que não viram Reels (curtos demais, frase solta) podem ir num bloco **"Ficou de fora"** no final, com a sugestão de onde usar (carrossel, post de texto, legenda).
 
 ### Formato da resposta
 
